@@ -6,9 +6,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'bootstrap-sass', '~> 1.4'
   #gem.add_dependency 'builder', '~> 3.0'
   gem.add_dependency 'builder', '~> 2.0'
-  gem.add_dependency 'coffee-rails', '~> 3.1'
   gem.add_dependency 'haml', '~> 3.1'
-  gem.add_dependency 'jquery-rails', '~> 1.0.19'
   gem.add_dependency 'kaminari', '~> 0.12.4'
   #gem.add_dependency 'rails', '~> 3.1'
   gem.add_dependency 'rails', '~> 3.0'
@@ -24,7 +22,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'launchy'
   gem.add_development_dependency 'mini_magick'
   gem.add_development_dependency 'paperclip'
-  gem.add_development_dependency 'rspec-rails'
   gem.add_development_dependency 'simplecov'
   gem.authors = ["Erik Michaels-Ober", "Bogdan Gaza", "Petteri Kaapa", "Benoit Benezech"]
   gem.description = %q{RailsAdmin is a Rails engine that provides an easy-to-use interface for managing your data.}
